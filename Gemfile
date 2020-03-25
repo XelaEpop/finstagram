@@ -13,6 +13,8 @@ gem 'puma'
 gem 'tux'
 
 group :development, :test do
+  gem 'rubocop'
+  gem 'solargraph'
   gem 'pry'
   gem 'shotgun'
   gem 'sqlite3', '~> 1.3.6'
